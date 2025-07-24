@@ -7,6 +7,13 @@
 // websites in the same order as the pattern.The task is to return the pattern with the highest score, 
 // and in case of a tie, return the lexicographically smallest pattern.
 
+//no of usernmaes->n
+//no of unique users->u
+//no of websites -> m
+//no of patterns
+// TC-> O(n log m + u × m³ + P)
+// SC-> O(n+P)
+
 #include <bits/stdc++.h>
 using namespace std;
 
